@@ -1,0 +1,39 @@
+baseURL = "https://runborg.github.io/cookbook/"
+languageCode = "en-us"
+title = "Family Cookbook"
+theme = "your-hugo-theme"  # Replace with your theme if you use one
+enableGitInfo = true
+
+[params]
+  description = "A collection of our family's treasured recipes"
+  showSearch = true  # Enable search if supported by theme
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]  # If you want to enable JSON for search
+
+[permalinks]
+  recipes = "/:title/"
+
+[taxonomies]
+  category = "categories"
+
+[[params.menu]]
+  name = "Recipes"
+  url = "/recipes/"
+

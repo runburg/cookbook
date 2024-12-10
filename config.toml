@@ -1,12 +1,16 @@
 baseURL = "https://runborg.github.io/cookbook/"
 languageCode = "en-us"
 title = "Family Cookbook"
-theme = "your-hugo-theme"  # Replace with your theme if you use one
+theme = "congo"  # Replace with your theme if you use one
 enableGitInfo = true
 
 [params]
   description = "A collection of our family's treasured recipes"
   showSearch = true  # Enable search if supported by theme
+  primaryColor = "#FF5733" # Customize this as you like
+  secondaryColor = "#333333" # Customize this as you like
+  search = true # Enable search
+  mainSections = ["recipes"] # Used to create a section for recipes
 
 [menu]
   [[menu.main]]

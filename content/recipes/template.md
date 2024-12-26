@@ -1,6 +1,6 @@
 ---
 title: "Recipe Name"
-originator: "Recipe Originator"
+originators: "Recipe Originator"
 prep_time: "30 minutes"
 servings: "4 servings"
 categories: ["Dessert", "Holiday"] # You can list multiple categories here

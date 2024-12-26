@@ -1,6 +1,6 @@
 ---
 title: "Pumpkin Chocolate Chip Bread"
-originator: "Grandma"
+originators: "Grandma"
 prep_time: "60 minutes"
 servings: "2 large loaves"
 categories: ["Dessert", "Holiday"] 

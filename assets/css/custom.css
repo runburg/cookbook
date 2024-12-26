@@ -1,0 +1,107 @@
+/* ========== General Styling for the Recipe Layout ========== */
+.recipe {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1.recipe-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.recipe-meta {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.recipe-originator {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 0.25rem;
+}
+
+.recipe-prep-time, 
+.recipe-servings {
+  font-size: 0.9rem;
+}
+
+.recipe-prep-time strong,
+.recipe-servings strong {
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 1.5rem 0;
+}
+
+/* ========== Styling for Recipe Content ========== */
+.recipe-content {
+  margin-bottom: 2rem;
+}
+
+.recipe-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-content p {
+  margin-bottom: 1rem;
+}
+
+.recipe-content ol, 
+.recipe-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-content ol li, 
+.recipe-content ul li {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.recipe-content ol li::marker {
+}
+
+/* ========== Footer with Links to Categories ========== */
+.recipe-footer {
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.recipe-footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-footer li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.recipe-footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recipe-footer a:hover {
+  text-decoration: underline;
+}
+

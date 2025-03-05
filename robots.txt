@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://runborg.com/sitemap.xml
+Sitemap: https://cookbook.runburg.com/sitemap.xml

@@ -1,6 +1,6 @@
 ---
 title: "Corn Casserole"
-originators: "Family Recipe"
+originators: "Grandma"
 prep_time: "10 minutes"
 servings: "6 servings"
 categories: ["Side Dish", "Comfort Food", "Holiday"]
